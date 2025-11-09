@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-filename = r'knn_model.sav'
+filename = r'"C:\Users\KRISHA\Downloads\decision_tree_model.joblib"'
 loaded_model = joblib.load(open(filename, 'rb'))
 
 # Define the correct column names
